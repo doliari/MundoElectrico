@@ -719,9 +719,6 @@ p {
     justify-content: center;
     top: auto;      
     }
-    .listaHeader {
-    }
-
     .listaHeader li {
     margin: 1px;  
     }
@@ -930,6 +927,5 @@ p {
 }
 .pCables {
     margin-bottom: 2px;
-}
 }
 }
