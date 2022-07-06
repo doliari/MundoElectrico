@@ -246,7 +246,7 @@ p {
 /* Estilo listas categorias */
 .listaCategorias {
     list-style-type: none;
-    margin-left: 2%;
+    margin-left: 5%;
 
 }
 
@@ -288,6 +288,7 @@ p {
     grid-template-rows: repeat(3 1fr);
     gap: 5px;
     justify-content: center;
+    margin: 0 auto;
 }
 .lemu1 {
     grid-column: 1/2;
@@ -322,7 +323,8 @@ p {
 
 .sectionCategorias {
     display: flex;
-    -content: flex-start;
+    content: flex-start;
+    margin-top: 40px;
 }
 .sectionCategoriasImagenes {
     display: flex;
