@@ -47,9 +47,9 @@
     width: fit-content;
 }
 
+/* Animaciones en lista de header */
 .listaHeader li:hover {
     transform: scale(1.2);
-    background-color: rgb(77, 114, 161);
     transition: transform 1s, background-color 1s;
     border-radius: 6px;
 }
@@ -89,6 +89,8 @@ h1 {
     grid-row: 1/2;
     margin-left: 20px;
 }
+
+/* Animaciones en imagen del index */
 .imagenIndex:hover {
     transform: scale(1.5) rotateX(360deg) rotateY(360deg) rotateZ(360deg) translateX(250px);
     transition: all 2s;
@@ -377,8 +379,14 @@ p {
         font-size: 12px;
         display: block;
     }
+    .listaHeader li:hover {
+        transform: none;
+    }
     .busqueda {
         scale: 0.8;
+    }
+    .imagenIndex:hover {
+        transform: none;
     }
 
     h1 {
@@ -567,8 +575,14 @@ p {
         font-size: 10px;
         display: block;
     }
+    .listaHeader li:hover {
+        transform: none;
+    }
     .busqueda {
         scale: 0.6;
+    }
+    .imagenIndex:hover {
+        transform: none;
     }
 
     .carrouselIndexImagen {
@@ -599,10 +613,13 @@ p {
     }
     
     .listaHeader li a {
-            letter-spacing: 0.1px;
-            font-size: 9px;
-            display: block;
-        }
+        letter-spacing: 0.1px;
+        font-size: 9px;
+        display: block;
+    }
+    .listaHeader li:hover {
+        transform: none;
+    }
     
     #logo {
            display: none;
@@ -611,6 +628,10 @@ p {
     .busqueda {
         scale: 0.5;   
      } 
+
+     .imagenIndex:hover {
+        transform: none;
+    }
     
     .contenedorGrid {
          display:inline-block;
@@ -740,6 +761,9 @@ p {
         font-size: 10px;
         display: block;
     }
+    .listaHeader li:hover {
+        transform: none;
+    }
 
     #logo {
        display: none;
@@ -748,6 +772,10 @@ p {
     .busqueda {
         scale: 0.6;   
     } 
+
+    .imagenIndex:hover {
+        transform: none;
+    }
 
     .contenedorGrid {
         display:inline-block;
