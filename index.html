@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--BootStrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <!--CSS-->
     <link rel="stylesheet" href="style.css"/>
     <!--Fuentes-->
@@ -14,25 +16,47 @@
     <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet"> 
     
     <title>MUNDO ELÉCTRICO</title>
+
 </head>
 
 <body class="body">
-    <header class="cabecera">
-        <!--Imágen-->
-        <img src="./Imagenes/logo.jpg" id="logo" alt="Logo">
-        <nav>
-            <ul class="listaHeader">
-                <li><a href="#">Home</a></li>
-                <li><a href="./Paginas/cables.html">Cables</a></li>
-                <li><a href="./Paginas/Interruptores.html">Interruptores</a></li>
-                <li><a href="./Paginas/canalizaciones.html">Canalizaciones</a></li>
-                <li><a href="./Paginas/herramientas.html">Herramientas</a></li>
-                <li><a href="./Paginas/quienes-somos.html">Quienes somos</a></li>
-            </ul>
-        </nav>
-        <div class="busqueda">
-        <input type="serch" placeholder="Búsqueda...">
-        </div>
+
+    <header>
+        <nav class="navbar navbar-expand-lg barraNavegacion">
+            <div class="container-fluid">
+              <a class="navbar-brand"  href="index.html"> <img src="./Imagenes/logo.jpg " id="logo" alt="Logo"> </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./Paginas/cables.html">Cables</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./Paginas/interruptores.html">Interruptores</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./Paginas/canalizaciones.html">Canalizaciones</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./Paginas/herramientas.html">Herramientas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./Paginas/quienes-somos.html">Quienes Somos</a>
+                  </li>
+                  
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Busqueda</button>
+                </form>
+              </div>
+            </div>
+          </nav>
     </header>
     <main>
         <h1>MUNDO ELÉCTRICO</h1>
@@ -50,14 +74,64 @@
             </div>
          </div>
 
-        <div class="carrouselIndex">
-            <img src="./Imagenes/carrousel/cablesUno.jpg" alt="cables" class="carrouselIndexImagen">
-            <img src="./Imagenes/carrousel/cablesDos.jpg" alt="cables" class="carrouselIndexImagen">
-            <img src="./Imagenes/carrousel/interruptorUno.jpg" alt="interruptor" class="carrouselIndexImagen">
-            <img src="./Imagenes/carrousel/interruptorDos.jpg" alt="interruptor" class="carrouselIndexImagen">
-            <img src="./Imagenes/carrousel/canalizacionUno.jpg" alt="canalizacion" class="carrouselIndexImagen">
-            <img src="./Imagenes/carrousel/canalizacionDos.jpg" alt="canalizacion" class="carrouselIndexImagen">
-        </div>
+
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-current="true" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-current="true" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-current="true" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-current="true" aria-label="Slide 5"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5"aria-current="true" aria-label="Slide 6"></button>
+
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="3000">
+                <img src="./Imagenes/carrousel/cablesUno.jpg" class="d-block w-100" alt="Cable">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Cable Aluminio</h5>
+                </div>
+              </div>
+              <div class="carousel-item active" data-bs-interval="3000">
+                <img src="./Imagenes/carrousel/cablesDos.jpg" class="d-block w-100" alt="Cable">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Cable Tierra</h5>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="./Imagenes/carrousel/interruptorUno.jpg" class="d-block w-100" alt="Interruptor">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Monoblock ABB</h5>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="./Imagenes/carrousel/interruptorDos.jpg" class="d-block w-100" alt="Interruptor">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Termomagnetica ABB</h5>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="./Imagenes/carrousel/canalizacionUno.jpg" class="d-block w-100" alt="Canalizacion">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Escalerilla</h5>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="./Imagenes/carrousel/canalizacionDos.jpg" class="d-block w-100" alt="Canalizacion">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Curva Articulada</h5>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>    
 
         <section>
             <h3 class="h3Ubicacion">UBICACIÓN: 18 de Julio 840, Montevideo, Uruguay</h3>
@@ -68,13 +142,25 @@
 
         <section>
             <h3 class="h3Contacto">FORMULARIO DE CONTACTO:</h3>
-            <form class='contacto'>
-                <div><label>Nombre:</label><input type='text' value=''></div>
-                <div><label>Email:</label><input type='text' value=''></div>
-                <div><label>Asunto:</label><input type='text' value=''></div>
-                <div><label>Mensaje:</label><textarea rows='6'></textarea></div>
-                <div><input type='submit' value='Envia Mensaje'></div>
-            </form>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre Apellido">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Asunto</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Asunto">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <div>
+                <input type='submit' value='Envia Mensaje'>
+            </div>
         </section>
     </main>
     <footer class="piePagina">
@@ -99,6 +185,9 @@
             </ul>
         </div>
     </footer>
+    <!--BootStrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
 </body>
 
 </html>
