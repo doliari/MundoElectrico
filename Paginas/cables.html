@@ -57,13 +57,13 @@
             </div>
           </nav>
     </header>
-    <main>
+    <main class="main">
         <h1>CABLES</h1>
-        <div>
+        <div class="divImagenCategorias">
             <img src="../Imagenes/Cables.jpg" class="imagenCategorias" alt="Cables">
         </div>
         <section>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, nemo quod quis nam veniam, non qui fugit veritatis impedit earum aliquam totam ea dolores velit commodi ipsa cupiditate vero dolore?</p>
+            <p class="pCategorias">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, nemo quod quis nam veniam, non qui fugit veritatis impedit earum aliquam totam ea dolores velit commodi ipsa cupiditate vero dolore?</p>
         </section>
         <section class="sectionCategorias">
         <section>
@@ -94,47 +94,59 @@
                 </li>
             </ul>
         </section>
-        
-        <div class="cablesGrid">
-            <div class="lemu1"> <img  src="../Imagenes/Cables/Lemu/lemuCRX300-500.PNG" alt="LemuCRX300/500">
-                <p class="pCables">Lemu CRX 300/500</p> 
-            </div>
-            <div class="lemu2"> <img  src="../Imagenes/Cables/Lemu/lemuCSX300-500.PNG" alt="LemuCSX300/500">
+
+        <div class="container">
+            <div class="row">
+              <div class="col-sm">
+                <img  src="../Imagenes/Cables/Lemu/lemuCRX300-500.PNG" alt="LemuCRX300/500">
+                <p class="pCables">Lemu CRX 300/500</p>
+              </div>
+              <div class="col-sm">
+                <img  src="../Imagenes/Cables/Lemu/lemuCSX300-500.PNG" alt="LemuCSX300/500">
                 <p class="pCables">Lemu CSX 300/500</p>
+              </div>
+              <div class="col-sm">
+                <img  src="../Imagenes/Cables/Lemu/lemuCIU450-750.PNG" alt="LemuCIU450/750">
+                <p class="pCables">Lemu CIU 450/750</p> 
+              </div>
+              <div class="col-sm">
+                <img  src="../Imagenes/Cables/Neorol/neorolCF450-750.PNG" alt="NeorolCF450/750">
+                <p class="pCables">Neorol CF 450/750</p> 
+              </div>
+              <div class="col-sm">
+                <img  src="../Imagenes/Cables/Neorol/neorolFutenax600-1100.PNG" alt="NeorolFutenax600/1100">
+                <p class="pCables">Neorol Futenax 600</p> 
+              </div>
+              <div class="col-sm">
+                <img  src="../Imagenes/Cables/Neorol/neorolFutenaxMT33000.PNG" alt="NeorolFutenaxMT33000">
+                <p class="pCables">Neorol Futenax MT 3300</p> 
+              </div>
             </div>
-            <div class="lemu3"> <img  src="../Imagenes/Cables/Lemu/lemuCIU450-750.PNG" alt="LemuCIU450/750"> 
-                <p class="pCables">Lemu CIU 450/750</p>
-            </div>
-            <div class="neorol1"> <img  src="../Imagenes/Cables/Neorol/neorolCF450-750.PNG" alt="NeorolCF450/750"> 
-                <p class="pCables">Neorol CF 450/750</p>
-            </div>
-            <div class="neorol2"> <img  src="../Imagenes/Cables/Neorol/neorolFutenax600-1100.PNG" alt="NeorolFutenax600/1100"> 
-                <p class="pCables">Neorol Futenax 600</p>
-            </div>
-            <div class="neorol3"> <img  src="../Imagenes/Cables/Neorol/neorolFutenaxMT33000.PNG" alt="NeorolFutenaxMT33000"> 
-                <p class="pCables">Neorol Futenax MT 3300</p>
-            </div>
-        </div>
+          </div>
     </section>
 
     </main>
     <footer class="piePagina">
-        <ul class="listaContacto">
-            <li><img class= "iconoContacto" src="../Imagenes/contacto/wapp.png"> Whatsapp - 098254156</li>
-            <li><img class="iconoContacto" src="../Imagenes/contacto/telefono.png"> Teléfono - 24019257</li>
-            <li><img class="iconoContacto" src="../Imagenes/contacto/correo.png"> Correo - contacto@mundoelectrico.com.uy</li>
-        </ul>
-        <ul class="listaRedes">
-            <li><img class="iconoRedes" src="../Imagenes/redes/instagram.png">
-                <a href=" https://www.instagram.com/mipagina " target="_blank ">Instagram</a>
-            </li>
-            <li><img class="iconoRedes" src="../Imagenes/redes/linkedin.png">
-                <a href="https://www.linkedin.com/mipagina " target="_blank ">Linkedin</a>
-            </li>
-            <li><img class="iconoRedes" src="../Imagenes/redes/facebook.png">
-                <a href="https://www.facebook.com/mipagina " target="_blank ">Facebook</a>
-            </li>
-        </ul>
+        <div class="divListaContacto">
+            <ul class="listaContacto">
+                <li><img class= "iconoContacto" src="../Imagenes/contacto/wapp.png"> Whatsapp - 098254156</li>
+                <li><img class="iconoContacto" src="../Imagenes/contacto/telefono.png"> Teléfono - 24019257</li>
+                <li><img class="iconoContacto" src="../Imagenes/contacto/correo.png"> Correo - contacto@mundoelectrico.com.uy</li>
+            </ul>
+         </div>
+         <div class="divListaRedes">
+            <ul class="listaRedes">
+                <li>
+                    <a href=" https://www.instagram.com/mipagina " target="_blank "><img class="iconoRedes" src="../Imagenes/redes/instagram.png" alt="Instagram"></a>
+                  </li>
+                  <li>
+                    <a href="https://www.linkedin.com/mipagina " target="_blank "><img class="iconoRedes" src="../Imagenes/redes/linkedin.png" alt="Linkedin"></a>
+                  </li>
+                  <li>
+                    <a href="https://www.facebook.com/mipagina " target="_blank "><img class="iconoRedes" src="../Imagenes/redes/facebook.png" alt="Facebook"></a>
+                  </li>
+            </ul>
+        </div>
     </footer>
     <!--BootStrap JS-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
