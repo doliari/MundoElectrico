@@ -1,0 +1,33 @@
+/* Estilo de la cabecera */
+.barraNavegacion{
+    background-color: map-get($colores, "color-principal");
+    width: 100%;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: map-get($colores, "color-secundario");
+}
+
+.nav-item:hover {
+    transform: scale(1.1);
+    transition: transform 1s;
+}
+
+.nav-item a {
+    font-size: larger;
+}
+.btn {
+    --bs-btn-color: map-get($colores, "color-secundario" );
+}
+
+.btn btn-outline-success {
+    --bs-btn-color: #edf5f1;
+    --bs-btn-border-color: #edf5f1;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #edf5f1;
+    --bs-btn-hover-border-color: #edf5f1;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #edf5f1;
+    --bs-btn-active-border-color: #edf5f1;
+    --bs-btn-disabled-color: #edf5f1;
+}   

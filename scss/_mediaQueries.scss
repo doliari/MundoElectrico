@@ -1,0 +1,200 @@
+/* Media Quieries para 768px */
+@media screen and (max-width: 768px){
+
+    .carousel-inner {
+        width: 90%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+    .carousel-item  {
+        height: 200px;
+        width: 80%;
+    } 
+    .carousel-item img {
+        height: 100px;
+    }
+
+    h1 {
+        text-decoration:wavy;
+        text-align: center;
+        margin: 5px auto;
+        letter-spacing: 5px;
+        font-size: 20px;
+    }
+
+    h2 {
+        margin-top: 5px;
+        margin-bottom: 1px;
+        font-size: 16px;
+    }
+    
+    h3 {
+        font-size: 14px;
+    }
+    
+    p {
+        line-height: 10px;
+        letter-spacing: 1px;
+        font-size: 12px;
+    }
+
+    .h3Ubicacion {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .mapa {
+        border: solid 1px black;
+        width: 60%;
+        height: 100%;
+        margin-left: 20%;
+        margin-right: auto;
+    }
+
+    .h3Contacto {
+        margin-left: 30px;
+    }
+
+    /* Estilo del footer */
+    .piePagina {
+        margin-top: 5px;
+}
+}
+
+/* Media Quieries para 480px */
+@media screen and (max-width: 480px){
+
+    #logo {
+           width: 30%;
+        }
+
+    .container img {
+        width: 90%;
+    }
+
+    .contenedorGrid {
+        display:inline;
+    }
+    
+    .imagenIndex {
+        width: 60%;
+        margin-left: 20%;
+    }
+    .textoIndex {
+        display: inline-block;
+        align-content: center;
+        text-align: center;
+    }
+     
+    .imagenIndex:hover {
+        display: none;
+    }
+    
+    .carousel-item img {
+        height: 150px;
+    }
+    h1 {
+        text-decoration:wavy;
+        text-align: center;
+        margin: 2px auto;
+        letter-spacing: 5px;
+        font-size: 16px;
+    }
+    h2 {
+        text-align: center;
+        margin-top: 3px;
+        font-size: 15px;
+    }
+        
+    h3 {
+        font-size: 12px;
+    }
+        
+    p {
+        line-height: 10px;
+        letter-spacing: 1px;
+        font-size: 11px;
+        margin-left: 10px;
+    }
+
+   .mb-3 {
+        width: 99%;
+    }
+
+    .listaContacto li {
+        font-size: 90%; 
+    }
+}
+
+/* Media Quieries para 320)*/
+@media screen and (max-width: 320px) {
+
+    .carousel-indicators {
+        display: none;
+    }
+
+    .h3Ubicacion {
+        text-align: center;
+        margin-left: 0px;
+    }
+    .h3Contacto {
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .mapa {
+        border: solid 1px black;
+        width: 60%;
+        height: 100%;
+        margin-left: 20%;
+    }
+
+    /* Estilo del footer */
+    .piePagina {
+        margin-top: 35px;
+    }
+
+    /* Estilo lista Contacto */
+    .listaContacto li {
+        font-size: 60%; 
+    }
+
+    .iconoContacto {
+        width: 4%;
+        margin: 1%;
+    }
+
+    .iconoRedes {
+        width: 40%;
+        margin: 2%;
+    }
+
+    /* Estilo listas categorias */
+    .sectionCategorias h2 {
+        margin: 2%;
+    }
+
+    .listaCategorias {
+        list-style-type: none;
+        margin-left: 1%;
+    }
+
+    .listaCategorias li a{
+        letter-spacing: 1px;
+        font-size: 12px;
+        font-weight: 1000;
+    }
+
+    .listaCategoriasOpciones {
+        list-style-type: none;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        margin-left: 1%;
+    }
+    .listaCategoriasOpciones li a{
+        letter-spacing: 1%;
+        font-size: 75%;
+        font-weight: 100;
+    }
+}

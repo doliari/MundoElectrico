@@ -1,0 +1,67 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    min-height: 100vh;
+    position: relative;
+    background-color: map-get($colores, "color-secundario");
+}
+
+
+.main {
+    padding-bottom: 30vh;;
+}
+
+/* Estilo del logo */
+#logo {
+    width: 50%;
+}
+
+/* Estilo del h1 */
+h1 {
+    font-family: $fuente-principal;
+    color: map-get($colores, "color-terciario");
+    text-decoration:wavy;
+    text-align: center;
+    margin: 30px auto;
+    letter-spacing: 15px;
+    font-size: 40px;
+}
+
+/* Estilo del h2 */
+h2 {
+    font-family: $fuente-principal;
+    color: map-get($colores, "color-terciario");
+    margin: 20px auto;
+}
+
+/* Estilo del h3 */
+h3 {
+    font-family: $fuente-principal;
+    color: map-get($colores, "color-terciario");
+    margin: 10px auto;
+}
+
+/* Estilo de los parrafos */
+p {
+    font-family: $fuente-principal;
+    color: map-get($colores, "color-terciario");
+    text-align:justify;
+    line-height: 24px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.pNombreItems {
+    font-family: $fuente-principal;
+    color: map-get($colores, "color-terciario");
+    text-align:center;
+    letter-spacing: 1%;
+    text-decoration: none;
+    font-size: 80%;
+    padding: 20%;
+}

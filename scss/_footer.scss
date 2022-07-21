@@ -1,0 +1,53 @@
+/* Estilo del footer */
+.piePagina {
+    background-color: rgb(40, 79, 194);
+    margin-top: 10px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: inline-flex;
+    align-items: center;  
+}
+
+.divListaContacto {
+    width: 70%;
+}
+
+.divListaRedes {
+    width: 30%;
+}
+
+/* Estilo lista Contacto */
+.listaContacto {
+    list-style-type: none;
+    padding: 0.7%;   
+}
+
+.listaContacto li {
+    font-family: 'Questrial', sans-serif;
+    color: white;
+    letter-spacing: 1%;
+    font-size: 120%;
+    text-decoration: wavy;   
+}
+
+/* Estilo lista Redes */
+.listaRedes {
+    list-style-type: none;
+    padding: 2%;
+    display: inline-flex;
+    align-items: center;
+    align-content: center;
+}
+
+/* Estilo iconos */
+.iconoContacto {
+    width: 2.5%;
+    vertical-align: middle;
+    margin: 1%;
+}
+
+.iconoRedes {
+    width: 25%;
+    margin: 2%;
+}
