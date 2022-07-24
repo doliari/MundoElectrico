@@ -6,3 +6,12 @@ $colores: (
 );
 
 $fuente-principal: 'Questrial', sans-serif;
+
+/* Mixin */
+@mixin parrafos ($spacing, $size){
+    letter-spacing: $spacing;
+    font-size: $size;
+    font-family: $fuente-principal;
+    color: map-get($colores, "color-terciario");
+    text-decoration: none;
+}

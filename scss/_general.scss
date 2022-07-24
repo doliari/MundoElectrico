@@ -46,22 +46,15 @@ h3 {
 }
 
 /* Estilo de los parrafos */
-p {
-    font-family: $fuente-principal;
-    color: map-get($colores, "color-terciario");
+
+.pIndex {
+    @include parrafos(1px, 16px);
     text-align:justify;
     line-height: 24px;
-    letter-spacing: 1px;
-    text-decoration: none;
-    font-size: 16px;
 }
 
 .pNombreItems {
-    font-family: $fuente-principal;
-    color: map-get($colores, "color-terciario");
+    @include parrafos (1%, 80%);
     text-align:center;
-    letter-spacing: 1%;
-    text-decoration: none;
-    font-size: 80%;
     padding: 20%;
 }

@@ -4,6 +4,9 @@
 }
 
 .pCategorias {
+    @include parrafos (1%, 120%);
+    text-align:justify;
+    line-height: 110%;
     margin: 1%;
 }
 

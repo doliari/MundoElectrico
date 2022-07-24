@@ -125,6 +125,30 @@
     .listaContacto li {
         font-size: 90%; 
     }
+        /* Estilo listas categorias */
+    .sectionCategorias h2 {
+        margin: 2%;
+    }
+
+    .listaCategorias {
+        margin-left: 0%;
+    }
+
+    .listaCategorias li a{
+        letter-spacing: 0.5px;
+        font-size: 12px;
+    }
+
+    .listaCategoriasOpciones {
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+    .listaCategoriasOpciones li a{
+        letter-spacing: 0.5%;
+        font-size: 75%;
+        font-weight: 100;
+    }
 }
 
 /* Media Quieries para 320)*/
