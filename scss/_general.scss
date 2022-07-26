@@ -26,9 +26,10 @@ h1 {
     color: map-get($colores, "color-terciario");
     text-decoration:wavy;
     text-align: center;
-    margin: 30px auto;
-    letter-spacing: 15px;
-    font-size: 40px;
+    letter-spacing: 50%;
+    font-size: 210%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 /* Estilo del h2 */
@@ -36,6 +37,7 @@ h2 {
     font-family: $fuente-principal;
     color: map-get($colores, "color-terciario");
     margin: 20px auto;
+    font-size: 180%;
 }
 
 /* Estilo del h3 */
@@ -43,6 +45,7 @@ h3 {
     font-family: $fuente-principal;
     color: map-get($colores, "color-terciario");
     margin: 10px auto;
+    font-size: 150%;
 }
 
 /* Estilo de los parrafos */
