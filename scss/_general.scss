@@ -51,13 +51,14 @@ h3 {
 /* Estilo de los parrafos */
 
 .pIndex {
-    @include parrafos(1px, 16px);
+    @include parrafos(1px, 20px);
     text-align:justify;
     line-height: 24px;
 }
 
 .pNombreItems {
-    @include parrafos (1%, 80%);
+    @include parrafos (1%, 100%);
     text-align:center;
     padding: 20%;
+    line-height: 100%;
 }

@@ -1,11 +1,22 @@
 /* Estilo listas categorias */
-.sectionCategorias h2 {
-    margin: 10%;
+.sectionCategorias {
+    display: flex;
+    margin-top: 40px;
 }
+.sectionCategorias h2 {
+    color: map-get($colores , color-secundario );
+    margin: 5%;
+    border: solid 1px black;
+    width: 105%;
+    border-radius: 6px;
+    background-color: map-get($colores, color-principal );
+    padding: 2%;
+}
+
 
 .pCategorias {
     @include parrafos (1%, 110%);
-    text-align:justify;
+    text-align:start;
     line-height: 110%;
     margin: 1%;
 }
@@ -13,7 +24,14 @@
 .listaCategorias {
     list-style-type: none;
     margin-left: 5%;
+    padding: 0%;
 
+}
+
+.listaCategorias .list-group .list-group-item a {
+    font-size: 80%;
+    font-family: $fuente-principal;
+    color: map-get($colores, "color-terciario");
 }
 
 .listaCategorias li a{
@@ -22,20 +40,7 @@
     letter-spacing: 1px;
     font-size: 20px;
     font-weight: 1000;
-}
-
-.listaCategoriasOpciones {
-    list-style-type: none;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    margin-left: 2%;
-}
-.listaCategoriasOpciones li a{
-    font-family: $fuente-principal;
-    color: map-get($colores, "color-terciario");
-    letter-spacing: 1%;
-    font-size: 100%;
-    font-weight: 100;
+    margin-left: 1%;
 }
 
 /* Estilo imagenes categorias y quienes somos */
@@ -48,17 +53,9 @@
     display: flex;
 }
 
-
-.sectionCategorias {
-    display: flex;
-    content: flex-start;
-    margin-top: 40px;
+.container {
+    margin: 5%;
 }
-.sectionCategoriasImagenes {
-    display: flex;
-    align-content: flex-end;
-}
-
 .container .row .col-sm {
     border: solid 1px map-get($colores, color-terciario);
     margin: 1%;
@@ -67,4 +64,5 @@
 
 .container .row .col-sm img {
     margin: 0 auto;
+    padding-left: 10%;
 }

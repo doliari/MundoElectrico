@@ -44,7 +44,7 @@ h3 {
 /* Estilo de los parrafos */
 .pIndex {
   letter-spacing: 1px;
-  font-size: 16px;
+  font-size: 20px;
   font-family: "Questrial", sans-serif;
   color: black;
   text-decoration: none;
@@ -53,12 +53,13 @@ h3 {
 
 .pNombreItems {
   letter-spacing: 1%;
-  font-size: 80%;
+  font-size: 100%;
   font-family: "Questrial", sans-serif;
   color: black;
   text-decoration: none;
   text-align: center;
-  padding: 20%; }
+  padding: 20%;
+  line-height: 100%; }
 
 /* Estilo de la cabecera */
 .barraNavegacion {
@@ -90,9 +91,6 @@ h3 {
   --bs-btn-disabled-color: #edf5f1; }
 
 /* Grid */
-.container {
-  margin: 5%; }
-
 .contenedorGrid {
   width: 100%;
   display: grid;
@@ -199,8 +197,18 @@ h3 {
   margin: 2%; }
 
 /* Estilo listas categorias */
+.sectionCategorias {
+  display: flex;
+  margin-top: 40px; }
+
 .sectionCategorias h2 {
-  margin: 10%; }
+  color: white;
+  margin: 5%;
+  border: solid 1px black;
+  width: 105%;
+  border-radius: 6px;
+  background-color: #284fc2;
+  padding: 2%; }
 
 .pCategorias {
   letter-spacing: 1%;
@@ -208,33 +216,27 @@ h3 {
   font-family: "Questrial", sans-serif;
   color: black;
   text-decoration: none;
-  text-align: justify;
+  text-align: start;
   line-height: 110%;
   margin: 1%; }
 
 .listaCategorias {
   list-style-type: none;
-  margin-left: 5%; }
+  margin-left: 5%;
+  padding: 0%; }
+
+.listaCategorias .list-group .list-group-item a {
+  font-size: 80%;
+  font-family: "Questrial", sans-serif;
+  color: black; }
 
 .listaCategorias li a {
   font-family: "Questrial", sans-serif;
   color: black;
   letter-spacing: 1px;
   font-size: 20px;
-  font-weight: 1000; }
-
-.listaCategoriasOpciones {
-  list-style-type: none;
-  margin-top: 2%;
-  margin-bottom: 2%;
-  margin-left: 2%; }
-
-.listaCategoriasOpciones li a {
-  font-family: "Questrial", sans-serif;
-  color: black;
-  letter-spacing: 1%;
-  font-size: 100%;
-  font-weight: 100; }
+  font-weight: 1000;
+  margin-left: 1%; }
 
 /* Estilo imagenes categorias y quienes somos */
 .imagenCategorias {
@@ -245,14 +247,8 @@ h3 {
   justify-content: center;
   display: flex; }
 
-.sectionCategorias {
-  display: flex;
-  content: flex-start;
-  margin-top: 40px; }
-
-.sectionCategoriasImagenes {
-  display: flex;
-  align-content: flex-end; }
+.container {
+  margin: 5%; }
 
 .container .row .col-sm {
   border: solid 1px black;
@@ -260,7 +256,8 @@ h3 {
   align-items: center; }
 
 .container .row .col-sm img {
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding-left: 10%; }
 
 .sectionQuienesSomos {
   border: solid 1px black;
@@ -269,7 +266,7 @@ h3 {
 
 .sectionQuienesSomos:hover {
   transform: scale(1.01);
-  background-color: #6d6a6a;
+  background-color: #f0e9e9;
   transition: all 0.5s; }
 
 /* Media Quieries para 768px */
