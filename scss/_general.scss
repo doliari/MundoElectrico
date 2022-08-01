@@ -12,7 +12,7 @@
 
 
 .main {
-    padding-bottom: 30vh;;
+    padding-bottom: 30vh;
 }
 
 /* Estilo del logo */
@@ -30,6 +30,7 @@ h1 {
     font-size: 210%;
     margin-top: 2%;
     margin-bottom: 2%;
+    font-weight: 1000;
 }
 
 /* Estilo del h2 */
@@ -52,7 +53,7 @@ h3 {
 
 .pIndex {
     @include parrafos(1px, 20px);
-    text-align:justify;
+    text-align:left;
     line-height: 24px;
 }
 

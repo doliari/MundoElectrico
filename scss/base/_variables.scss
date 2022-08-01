@@ -2,10 +2,11 @@
 $colores: (
 "color-principal": rgb(40, 79, 194),
 "color-secundario": white,
-"color-terciario": black
+"color-terciario": black,
+"color-cuaternario": grey
 );
 
-$fuente-principal: 'Questrial', sans-serif;
+$fuente-principal: 'Lato', sans-serif;
 
 /* Mixin */
 @mixin parrafos ($spacing, $size){

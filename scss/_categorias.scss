@@ -11,6 +11,7 @@
     border-radius: 6px;
     background-color: map-get($colores, color-principal );
     padding: 2%;
+    font-size: 130%;
 }
 
 
@@ -45,8 +46,8 @@
 
 /* Estilo imagenes categorias y quienes somos */
 .imagenCategorias {
-    width: 25%;
-    height: 25%;
+    width: 30%;
+    height: 30%;
 }
 .divImagenCategorias {
     justify-content: center;
@@ -57,9 +58,9 @@
     margin: 5%;
 }
 .container .row .col-sm {
-    border: solid 1px map-get($colores, color-terciario);
     margin: 1%;
     align-items: center;
+    box-shadow: 0 0 15px map-get($colores, color-cuaternario);
 }
 
 .container .row .col-sm img {

@@ -66,6 +66,18 @@
     .piePagina {
         margin-top: 5px;
 }
+.divUbicacion {
+    display:flexbox;
+    width: 100%;
+    padding: 0%;
+}
+
+.divContacto {
+    display: flexbox;
+    width: 100%;
+    padding: 0%;
+    
+}
 }
 
 /* Media Quieries para 480px */
@@ -93,6 +105,9 @@
         align-content: center;
         text-align: center;
     }
+    .pIndex {
+        font-size: 16px;
+    }
      
     .imagenIndex:hover {
         display: none;
@@ -102,9 +117,17 @@
         height: 150px;
     }
 
+    h1 {
+        font-size: 150%;
+    }
+
     h2 {
         text-align: center;
         margin-top: 3px;
+    }
+
+    h3 {
+        font-size: 100%;
     }
         
     p {
