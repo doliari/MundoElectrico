@@ -33,14 +33,16 @@ h2 {
   font-family: "Lato", sans-serif;
   color: black;
   margin: 20px auto;
-  font-size: 180%; }
+  font-size: 180%;
+  font-weight: 700; }
 
 /* Estilo del h3 */
 h3 {
   font-family: "Lato", sans-serif;
   color: black;
   margin: 10px auto;
-  font-size: 150%; }
+  font-size: 150%;
+  font-weight: 700; }
 
 /* Estilo de los parrafos */
 .pIndex {
@@ -431,13 +433,6 @@ h3 {
     width: 60%;
     height: 100%;
     margin-left: 20%; }
-  /* .divUbicacion {
-        width: 98%;
-    }
-
-    .divContacto {
-        width: 98%;
-    } */
   /* Estilo del footer */
   .piePagina {
     margin-top: 35px; }
