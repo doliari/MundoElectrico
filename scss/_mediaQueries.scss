@@ -45,6 +45,13 @@
         font-size: 12px;
     }
 
+    .container .row .col-sm img {
+        margin: 0 auto;
+        padding-top: 5%;
+        padding-bottom: 1%;
+        padding-left: 20%; 
+    }
+
     .h3Ubicacion {
         text-align: center;
         margin-top: 20px;
@@ -140,7 +147,13 @@
    .mb-3 {
         width: 99%;
     }
+    .divUbicacion {
+        width: 98%;
+    }
 
+    .divContacto {
+        width: 98%;
+    }
     .listaContacto li {
         font-size: 90%; 
     }
@@ -165,8 +178,15 @@
 
     .listaCategoriasOpciones li a{
         letter-spacing: 0.5%;
-        font-size: 75%;
+        font-size: 70%;
         font-weight: 100;
+        
+    }
+    .listaCategorias .list-group .list-group-item a {
+        font-size: 50%;
+    }
+    .listaCategorias .list-group {
+        width: 115%; 
     }
 }
 
@@ -192,6 +212,13 @@
         height: 100%;
         margin-left: 20%;
     }
+    /* .divUbicacion {
+        width: 98%;
+    }
+
+    .divContacto {
+        width: 98%;
+    } */
 
     /* Estilo del footer */
     .piePagina {
@@ -240,4 +267,5 @@
         font-size: 75%;
         font-weight: 100;
     }
+
 }
